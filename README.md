@@ -10,10 +10,13 @@ Don't hesitate to adjust them for youself
 Running buildsysio.sh without any argument shows list of exist arguments, here they are:
 
 start: chrooting into exist system to made changes
+
 stop: umounts exist chroot session
+
 iso: packing live system into squashfs image and then create iso image
+
 buildroot: create live system from scratch (from stage3)
 
 
-DISCLAIMER: These scripts still under developing. Use at own risk!
+[b]DISCLAIMER[/b] : These scripts still under developing. Use at own risk!
 
