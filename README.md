@@ -18,5 +18,5 @@ iso: packing live system into squashfs image and then create iso image
 buildroot: create live system from scratch (from stage3)
 
 
-# DISCLAIMER: These scripts still under developing. Use at own risk!
+### DISCLAIMER: These scripts still under developing. Use at own risk!
 
