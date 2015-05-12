@@ -14,19 +14,6 @@ stop: umounts exist chroot session
 iso: packing live system into squashfs image and then create iso image
 buildroot: create live system from scratch (from stage3)
 
-### Installing
 
-Please read https://wiki.gentoo.org/wiki/Layman for more information regarding layman.
-
-### Add it using layman:
-
-      layman -f -o https://raw.githubusercontent.com/kergalym/livebuild-gentoo/master/repositories.xml -a livebuild-gentoo
-
-### Add it manually :
-
-      cd /var/lib/layman
-      git clone https://github.com/kergalym/livebuild-gentoo.git
-
-then add it to your make.conf
-
+DISCLAIMER: These scripts still under developing. Use at own risk!
 
